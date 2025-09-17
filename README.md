@@ -88,5 +88,3 @@ Our implementation is mainly based on following repositories. Thanks for their a
 * [DDB](https://github.com/xiaoachen98/DDB)
 * [Rein](https://github.com/w1oves/Rein)
 * [HRDA](https://github.com/lhoyer/HRDA)
-
-[![Star History Chart](https://api.star-history.com/svg?repos=w1oves/Rein&type=Date)](https://star-history.com/#w1oves/Rein&Date)
