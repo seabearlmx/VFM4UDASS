@@ -31,9 +31,6 @@ mkdir data
 # Convert data for validation if preparing for the first time
 python tools/convert_datasets/gta.py data/gta # Source domain
 python tools/convert_datasets/cityscapes.py data/cityscapes
-# Convert Mapillary to Cityscapes format and resize for validation
-python tools/convert_datasets/mapillary2cityscape.py data/mapillary data/mapillary/cityscapes_trainIdLabel --train_id
-python tools/convert_datasets/mapillary_resize.py data/mapillary/validation/images data/mapillary/cityscapes_trainIdLabel/val/label data/mapillary/half/val_img data/mapillary/half/val_label
 ```
 (Optional) **ACDC**: Download all image and label packages from [ACDC](https://acdc.vision.ee.ethz.ch/) and extract them to `data/acdc`.
 
