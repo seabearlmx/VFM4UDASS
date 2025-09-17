@@ -44,7 +44,6 @@ VFM4UDASS
 ├── ...
 ├── checkpoints
 │   ├── dinov2_vitl14_pretrain.pth
-│   ├── dinov2_rein_and_head.pth
 ├── data
 │   ├── cityscapes
 │   │   ├── leftImg8bit
@@ -53,22 +52,6 @@ VFM4UDASS
 │   │   ├── gtFine
 │   │   │   ├── train
 │   │   │   ├── val
-│   ├── bdd100k
-│   │   ├── images
-│   │   |   ├── 10k
-│   │   │   |    ├── train
-│   │   │   |    ├── val
-│   │   ├── labels
-│   │   |   ├── sem_seg
-│   │   |   |    ├── masks
-│   │   │   |    |    ├── train
-│   │   │   |    |    ├── val
-│   ├── mapillary
-│   │   ├── training
-│   │   ├── cityscapes_trainIdLabel
-│   │   ├── half
-│   │   │   ├── val_img
-│   │   │   ├── val_label
 │   ├── gta
 │   │   ├── images
 │   │   ├── labels
