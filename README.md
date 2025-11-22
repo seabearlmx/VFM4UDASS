@@ -72,13 +72,17 @@ VFM4UDASS
   ```
 
 ## Training
-Start training in single GPU:
+Start training in single GPU:  
 ```
 python tools/train.py configs/frozen_vfms/uda/uda_dinov2-L_hrda.py
+python tools/train.py configs/frozen_vfms/uda/uda_eva02-L_hrda.py
+python tools/train.py configs/frozen_vfms/uda/uda_sam-H_hrda.py
 ```
 Start training in multiple GPU:
 ```
 PORT=12345 CUDA_VISIBLE_DEVICES=1,2,3,4 bash tools/dist_train.sh configs/frozen_vfms/uda/uda_dinov2-L_hrda.py NUM_GPUS
+PORT=12345 CUDA_VISIBLE_DEVICES=1,2,3,4 bash tools/dist_train.sh configs/frozen_vfms/uda/uda_eva02-L_hrda.py NUM_GPUS
+PORT=12345 CUDA_VISIBLE_DEVICES=1,2,3,4 bash tools/dist_train.sh configs/frozen_vfms/uda/uda_sam-H_hrda.py NUM_GPUS
 ```
 
 
